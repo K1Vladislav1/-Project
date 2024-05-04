@@ -1,6 +1,5 @@
 /* Стили для контейнера */
 #u51 {
-    display: flex;
     font-family: Arial, sans-serif; /* Шрифт */
     padding: 20px; /* Отступы */
     background-color: #f7f7f7; /* Цвет фона */
