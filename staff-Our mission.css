@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(249, 209, 149, 1);
+    padding: 20px; /* Добавим небольшие отступы по бокам */
+}
+canvas {
+    width: 100%; /* Ширина канваса будет равна 100% ширины родительского контейнера */
+    height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
+    display: block;
+}
+h2 {
+    color: #673A1C;
+    text-align: center;
+}
+
+.mission {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 80%;
+  }
+  li{
+    color: #673A1C;
+  }
+  .pastry-list li + li {
+    margin-top: 5px;
+  }
+  h1{
+    color: #673A1C;
+  }
+  .pastry-list {
+    list-style: none; /* Убираем стандартный маркер */
+    padding: 0;
+  }
+  
+  .pastry-list ul {
+    margin-bottom: 20px;
+  }
+  
+  .pastry-list li {
+    margin-bottom: 10px;
+    padding-left: 20px; /* Добавляем отступ слева для размещения символа */
+    position: relative; /* Делаем позиционирование относительным */
+  }
+  
+  .pastry-list li::before {
+    content: "🍰"; /* Добавляем символ кусочка торта в качестве маркера */
+    position: absolute; /* Абсолютное позиционирование относительно элемента li */
+    left: 0; /* Выравниваем символ по левому краю */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .mission {
+      padding: 10px;
+    }
+  }
+  
+  
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.table th {
+    font-weight: bold;
+    padding: 15px;
+    background-color: #f2f8f8;
+    border: 1px solid #dddddd;
+}
+.table td {
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #dddddd;
+}
+th {
+    background-color: rgba(153, 227, 236, 1);
+    color: white;
+}
+.img_2 {
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+img:hover {
+    transform: scale(1.1);
+}
