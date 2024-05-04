@@ -128,7 +128,7 @@
     flex-direction: column;
   }
   #u51 {
-    display: block;
+    display: contents;
     font-family: Arial, sans-serif;
     padding: 20px;
     background-color: #f7f7f7;
