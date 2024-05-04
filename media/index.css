@@ -103,7 +103,7 @@
       left: 7%;
     }
     #u51{
-      display: block;
+      display: contents;
       font-family: Arial, sans-serif; /* Шрифт */
       padding: 20px; /* Отступы */
       background-color: #f7f7f7; /* Цвет фона */
